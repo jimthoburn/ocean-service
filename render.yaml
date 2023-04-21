@@ -9,5 +9,5 @@ services:
     staticPublishPath: ./whale/
   - type: web
     name: Boat
-    env: static
+    env-typo: static
     staticPublishPath: ./boat/

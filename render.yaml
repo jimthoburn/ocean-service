@@ -11,3 +11,7 @@ services:
     name: Boat
     env: static
     staticPublishPath: ./boat/
+  - type: web
+    name: Boat2
+    env_typo: static
+    staticPublishPath: ./boat/

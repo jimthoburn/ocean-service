@@ -12,3 +12,4 @@ services:
     name: Boat
     env: static
     staticPublishPath: ./boat/
+

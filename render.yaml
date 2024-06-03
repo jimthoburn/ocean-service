@@ -11,6 +11,15 @@ services:
     name: Whale
     env: static
     staticPublishPath: ./whale/
+    envVars:
+    - key: TEST_B
+      sync: false
+    - key: TEST_C
+      sync: false
+    - key: TEST_D
+      value: d
+    - key: TEST_E
+      generateValue: true
   - type: web
     name: Boat
     env: static

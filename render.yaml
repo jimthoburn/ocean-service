@@ -4,6 +4,9 @@ services:
     name: Water
     env: static
     staticPublishPath: ./water/
+    envVars:
+    - key: TEST_A
+      sync: false
   - type: web
     name: Whale
     env: static

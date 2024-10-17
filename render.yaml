@@ -15,4 +15,3 @@ services:
   - type: web
     name: Water Server
     env: docker
-    staticPublishPath: ./water/

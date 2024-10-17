@@ -12,3 +12,7 @@ services:
     name: Boat
     env: static
     staticPublishPath: ./boat/
+  - type: web
+    name: Boat Server
+    env: docker
+    staticPublishPath: ./boat/

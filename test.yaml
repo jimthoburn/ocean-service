@@ -1,14 +1,6 @@
-previewsEnabled: true
-services:
-  - type: web
-    name: Water
-    env: static
-    staticPublishPath: ./water/
-  - type: web
-    name: Whale
-    env: static
-    staticPublishPath: ./whale/
-  - type: web
-    name: Boat
-    env: static
-    staticPublishPath: ./boat/
+ungrouped:
+  envVarGroups:
+  - name: example-environment-group
+    envVars:
+    - key: EXAMPLE_KEY
+      sync: false

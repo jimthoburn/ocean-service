@@ -1,0 +1,6 @@
+ungrouped:
+  envVarGroups:
+  - name: example-environment-group
+    envVars:
+    - key: EXAMPLE_KEY
+      sync: false

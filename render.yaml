@@ -1,14 +1,9 @@
-previewsEnabled: true
-services:
-  - type: web
-    name: Water
-    env: static
-    staticPublishPath: ./water/
-  - type: web
-    name: Whale
-    env: static
-    staticPublishPath: ./whale/
-  - type: web
-    name: Boat
-    env: static
-    staticPublishPath: ./boat/
+projects:
+  - name: Ocean
+  environments:
+    - name: Preview
+    services:
+      - type: web
+        name: Water
+        env: static
+        staticPublishPath: ./water/

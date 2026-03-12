@@ -1,9 +1,9 @@
 projects:
   - name: Ocean
-  environments:
-    - name: Preview
-    services:
-      - type: web
-        name: Water
-        env: static
-        staticPublishPath: ./water/
+    environments:
+      - name: Preview
+        services:
+          - type: web
+            name: Water
+            env: static
+            staticPublishPath: ./water/
